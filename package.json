@@ -1,5 +1,5 @@
 {
-  "name": "Some Name Here",
+  "name": "SomeNameHere",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -7,13 +7,18 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.1.6",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
   },
