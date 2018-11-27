@@ -6,11 +6,10 @@ module.exports = (wallaby) => {
       return {
         files: [
           'src/**/*.ts',
-          'package.json', 
-          '!src/**/__tests__/*.ts'
+          'package.json'
         ],
 
-        tests: ['tests/**/__tests__/*.ts'],
+        tests: ['tests/**/*.test.ts'],
 
         debug: true,
       
