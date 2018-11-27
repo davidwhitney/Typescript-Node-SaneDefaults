@@ -5,5 +5,5 @@ test("adds 1 + 1 to equal 2", () => {
 
     const val = sut.greet();
 
-    expect(val).toBe("Heya, name");
+    expect(val).toBe("Hey, name");
 });
