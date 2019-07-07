@@ -2,7 +2,6 @@
 var wallabyWebpack = require('wallaby-webpack');
 
 module.exports = (wallaby) => {
-
       return {
         files: [
           'src/**/*.ts',
@@ -10,14 +9,13 @@ module.exports = (wallaby) => {
         ],
 
         tests: ['tests/**/*.test.ts'],
-
-        debug: true,
-      
+       
         env: {
           type: 'node',
           runner: 'node'
         },
-
+        
+        debug: true,
         testFramework: 'jest'
     }
 }  
